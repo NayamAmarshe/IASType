@@ -2,6 +2,8 @@
 
 [![Download macOS-IAST](https://img.shields.io/badge/Download-macOS--IAST-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/tags/v1.zip)
 
+<img width="800" height="388" alt="Recordingat2026-07-2406 57 13-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/94ba84d3-85af-43b3-8691-6c9bbbe32214" />
+
 Type Sanskrit letters (IAST or ISO 15919) on your Mac without any hassle of copying and pasting them!
 
 macOS-IAST gives you letters like `ā`, `ṛ`, `ṣ`, and `ḻ` right from
