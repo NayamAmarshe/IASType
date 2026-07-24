@@ -4,7 +4,7 @@
 
 <img width="800" height="388" alt="Recordingat2026-07-2406 57 13-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/e742ba63-cebd-4377-9b29-f66b26646cef" />
 
-Type Sanskrit letters (IAST or ISO 15919) on your Mac without any hassle of copying and pasting them!
+Type IAST or ISO 15919 on your Mac without any hassle of copying and pasting them!
 
 macOS-IAST gives you letters like `ā`, `ṛ`, `ṣ`, and `ḻ` right from
 your keyboard. Hold <kbd>option ⌥</kbd>, tap a letter, and you are done. If that
