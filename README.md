@@ -1,5 +1,7 @@
 # macOS-IAST - Easy IAST + ISO 15919 Typing for Mac
 
+[![Download macOS-IAST](https://img.shields.io/badge/Download-macOS--IAST-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/tags/v1.zip)
+
 Type Sanskrit letters (IAST or ISO 15919) on your Mac without any hassle of copying and pasting them!
 
 macOS-IAST gives you letters like `ā`, `ṛ`, `ṣ`, and `ḻ` right from
@@ -73,7 +75,9 @@ steps below use Terminal instead. You do not need to know how to code.
 
 ### Step 1: Unzip the download
 
-Open your **Downloads** folder and double-click the downloaded ZIP file.
+1. Click **[Download macOS-IAST](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/tags/v1.zip)**.
+2. Open your **Downloads** folder when the download is done.
+3. Double-click the downloaded ZIP file.
 
 A new folder will appear. Open that folder. You should see a file named
 `install.command`.
