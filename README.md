@@ -1,14 +1,16 @@
-# macOS-IAST - Easy IAST + ISO 15919 Typing for Mac
+# IASType - Easy IAST + ISO 15919 Typing for Mac and Windows
 
-[![Download macOS-IAST](https://img.shields.io/badge/Download-macOS--IAST-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/tags/v1.zip)
+[![Download IASType](https://img.shields.io/badge/Download-IASType-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/heads/main.zip)
 
 <img width="800" height="388" alt="Recordingat2026-07-2406 57 13-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/e742ba63-cebd-4377-9b29-f66b26646cef" />
 
-Type IAST or ISO 15919 on your Mac without any hassle of copying and pasting them!
+Type Sanskrit letters (IAST or ISO 15919) on your Mac or Windows PC without
+the hassle of copying and pasting them!
 
-macOS-IAST gives you letters like `ā`, `ṛ`, `ṣ`, and `ḻ` right from
-your keyboard. Hold <kbd>option ⌥</kbd>, tap a letter, and you are done. If that
-key has more than one special letter, tap it again to see the next one.
+IASType gives you letters like `ā`, `ṛ`, `ṣ`, and `ḻ` right from your
+keyboard. Hold <kbd>Option ⌥</kbd> on a Mac or <kbd>Alt</kbd> on Windows, tap a
+letter, and you are done. If that key has more than one special letter, tap it
+again to see the next one.
 
 It is quick to learn, easy to use, and does not change your normal typing.
 
@@ -19,49 +21,84 @@ It is quick to learn, easy to use, and does not change your normal typing.
 - Stop copying and pasting one letter at a time
 - Use easy key choices that are simple to remember
 - Make capital letters with <kbd>Shift</kbd>
-- Use it in most Mac apps
+- Use it in most Mac and Windows apps
 
 ## How to type
 
-Hold <kbd>option ⌥</kbd> and tap one of the keys below.
+Hold <kbd>Option ⌥</kbd> on a Mac or <kbd>Alt</kbd> on Windows and tap one of
+the keys below.
 
-| Keys                               | What you get    |
-| ---------------------------------- | --------------- |
-| <kbd>option ⌥</kbd> + <kbd>A</kbd> | `ā`             |
-| <kbd>option ⌥</kbd> + <kbd>I</kbd> | `ī`             |
-| <kbd>option ⌥</kbd> + <kbd>U</kbd> | `ū`             |
-| <kbd>option ⌥</kbd> + <kbd>E</kbd> | `ē`             |
-| <kbd>option ⌥</kbd> + <kbd>O</kbd> | `ō`             |
-| <kbd>option ⌥</kbd> + <kbd>R</kbd> | `ṛ` → `ṝ` → `ṟ` |
-| <kbd>option ⌥</kbd> + <kbd>L</kbd> | `ḷ` → `ḻ` → `ḹ` |
-| <kbd>option ⌥</kbd> + <kbd>S</kbd> | `ś` → `ṣ`       |
-| <kbd>option ⌥</kbd> + <kbd>N</kbd> | `ṇ` → `ñ` → `ṅ` |
-| <kbd>option ⌥</kbd> + <kbd>M</kbd> | `ṁ` → `ṃ`       |
-| <kbd>option ⌥</kbd> + <kbd>T</kbd> | `ṭ`             |
-| <kbd>option ⌥</kbd> + <kbd>D</kbd> | `ḍ`             |
-| <kbd>option ⌥</kbd> + <kbd>H</kbd> | `ḥ`             |
+| Mac / Windows shortcut                  | What you get    |
+| --------------------------------------- | --------------- |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>A</kbd> | `ā`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>I</kbd> | `ī`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>U</kbd> | `ū`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>E</kbd> | `ē`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>O</kbd> | `ō`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>R</kbd> | `ṛ` → `ṝ` → `ṟ` |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>L</kbd> | `ḷ` → `ḻ` → `ḹ` |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>S</kbd> | `ś` → `ṣ`       |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>N</kbd> | `ṇ` → `ñ` → `ṅ` |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>M</kbd> | `ṁ` → `ṃ`       |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>T</kbd> | `ṭ`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>D</kbd> | `ḍ`             |
+| <kbd>Option ⌥</kbd> / <kbd>Alt</kbd> + <kbd>H</kbd> | `ḥ`             |
 
-When you see arrows, keep holding <kbd>option ⌥</kbd> and tap the same letter
-again.
+When you see arrows, keep holding <kbd>Option ⌥</kbd> or <kbd>Alt</kbd> and tap
+the same letter again.
 
 For example:
 
 ```text
-option ⌥ + N           gives you  ṇ
+Option ⌥ / Alt + N      gives you  ṇ
 Tap N again          changes it to  ñ
 Tap N one more time  changes it to  ṅ
 ```
 
-Let go of <kbd>option ⌥</kbd> when you are done. The next tap will start from
-the first letter again.
+Let go of <kbd>Option ⌥</kbd> or <kbd>Alt</kbd> when you are done. The next tap
+will start from the first letter again.
 
-To make a capital letter, hold <kbd>Shift</kbd> + <kbd>option ⌥</kbd> too:
+To make a capital letter, hold <kbd>Shift</kbd> with <kbd>Option ⌥</kbd> or
+<kbd>Alt</kbd> too:
 
 ```text
-Shift + option ⌥ + N  gives you  Ṇ → Ñ → Ṅ
+Shift + Option ⌥ / Alt + N  gives you  Ṇ → Ñ → Ṅ
 ```
 
-## Before you install
+## Windows
+
+Windows uses a small free helper called
+[AutoHotkey](https://www.autohotkey.com/). The Windows version of IASType
+uses AutoHotkey v2 to listen for the shortcuts and insert real Unicode text.
+
+### Install on Windows
+
+1. Unzip the download.
+2. Open the unzipped folder.
+3. Double-click `install-windows.cmd`.
+4. If Windows asks for permission, allow PowerShell to run the installer.
+
+The installer tries to add AutoHotkey v2 with WinGet. If WinGet is not
+available, it opens the official AutoHotkey download page. Install AutoHotkey
+v2, then double-click `install-windows.cmd` again.
+
+IASType will start right away and will start automatically each time you
+sign in to Windows. Test it in Notepad with <kbd>Alt</kbd> + <kbd>A</kbd>. You
+should see `ā`.
+
+To remove the Windows version, double-click `uninstall-windows.cmd`. It removes
+IASType but leaves AutoHotkey installed because another script may use it.
+
+### Windows notes
+
+- Use the regular <kbd>Alt</kbd> key. Ctrl+Alt shortcuts remain available to
+  Windows and other apps.
+- IASType works in most normal text boxes. Secure password fields may
+  block keyboard tools.
+- If the keys stop working, run `install-windows.cmd` again or exit and start
+  AutoHotkey from the IASType shortcut in your Startup folder.
+
+## Mac
 
 This tool needs a free Mac app called
 [Hammerspoon](https://www.hammerspoon.org/). Hammerspoon lets the key
@@ -77,7 +114,7 @@ steps below use Terminal instead. You do not need to know how to code.
 
 ### Step 1: Unzip the download
 
-1. Click **[Download macOS-IAST](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/tags/v1.zip)**.
+1. Click **[Download IASType](https://github.com/NayamAmarshe/macOS-IAST/archive/refs/heads/main.zip)**.
 2. Open your **Downloads** folder when the download is done.
 3. Double-click the downloaded ZIP file.
 
@@ -166,7 +203,7 @@ Run `install.command` from Terminal again:
 
 The new letter list will replace the old one. Your other Hammerspoon settings
 will stay in place. The installer also saves a backup before it makes a
-change. It also cleans up old or repeated macOS-IAST setup lines.
+change. It also cleans up old or repeated IASType setup lines.
 
 ## Remove
 
@@ -177,7 +214,7 @@ To remove the tool:
 3. Drag `uninstall.command` into Terminal.
 4. Press <kbd>Return</kbd>.
 
-This removes macOS-IAST. It does not remove Hammerspoon, since you may
+This removes IASType. It does not remove Hammerspoon, since you may
 use Hammerspoon for other things.
 
 ## If something is not working

@@ -8,7 +8,7 @@ MODULE="$HS_DIR/iast.lua"
 LEGACY_MODULE="$HS_DIR/visual_iast_cycle.lua"
 
 show_message() {
-  /usr/bin/osascript -e "display dialog \"$1\" buttons {\"OK\"} default button \"OK\" with title \"macOS-IAST\"" >/dev/null
+  /usr/bin/osascript -e "display dialog \"$1\" buttons {\"OK\"} default button \"OK\" with title \"IASType\"" >/dev/null
 }
 
 install_hammerspoon() {
@@ -47,7 +47,7 @@ install_hammerspoon() {
     exit 1
   fi
 
-  temp_dir=$(/usr/bin/mktemp -d "${TMPDIR:-/tmp}/visual-iast.XXXXXX")
+  temp_dir=$(/usr/bin/mktemp -d "${TMPDIR:-/tmp}/IASType.XXXXXX")
   archive="$temp_dir/Hammerspoon.zip"
 
   if ! /usr/bin/curl -fL \
@@ -124,12 +124,14 @@ CLEANED_INIT=$(/usr/bin/mktemp "$HS_DIR/init.lua.XXXXXX")
 /usr/bin/sed \
   -e '/^-- BEGIN Visual IAST Cycle$/,/^-- END Visual IAST Cycle$/d' \
   -e '/^-- BEGIN macOS-IAST$/,/^-- END macOS-IAST$/d' \
+  -e '/^-- BEGIN iastype$/,/^-- END iastype$/d' \
+  -e '/^-- BEGIN IASType$/,/^-- END IASType$/d' \
   "$INIT" > "$CLEANED_INIT"
 
 /bin/cat >> "$CLEANED_INIT" <<'EOF'
--- BEGIN macOS-IAST
+-- BEGIN IASType
 require("iast")
--- END macOS-IAST
+-- END IASType
 EOF
 
 /bin/cp "$CLEANED_INIT" "$INIT"

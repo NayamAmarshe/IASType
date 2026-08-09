@@ -12,6 +12,8 @@ if [ -f "$INIT" ]; then
   /usr/bin/sed \
     -e '/^-- BEGIN Visual IAST Cycle$/,/^-- END Visual IAST Cycle$/d' \
     -e '/^-- BEGIN macOS-IAST$/,/^-- END macOS-IAST$/d' \
+    -e '/^-- BEGIN iastype$/,/^-- END iastype$/d' \
+    -e '/^-- BEGIN IASType$/,/^-- END IASType$/d' \
     "$INIT" > "$CLEANED_INIT"
   /bin/cp "$CLEANED_INIT" "$INIT"
   /bin/rm -f "$CLEANED_INIT"
@@ -20,4 +22,4 @@ fi
 /usr/bin/osascript -e 'tell application "Hammerspoon" to quit' >/dev/null 2>&1 || true
 sleep 1
 open -a Hammerspoon >/dev/null 2>&1 || true
-/usr/bin/osascript -e 'display dialog "macOS-IAST was removed. Hammerspoon itself was left installed because you may use it for other automations." buttons {"OK"} default button "OK" with title "macOS-IAST"' >/dev/null
+/usr/bin/osascript -e 'display dialog "IASType was removed. Hammerspoon itself was left installed because you may use it for other automations." buttons {"OK"} default button "OK" with title "IASType"' >/dev/null

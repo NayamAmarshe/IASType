@@ -68,7 +68,7 @@ local function pressDelete()
   markSynthetic(event.newKeyEvent({}, "delete", false)):post()
 end
 
-visualIASTCycleTap = eventtap.new({
+IASTypeCycleTap = eventtap.new({
   types.keyDown,
   types.flagsChanged,
   types.leftMouseDown,
@@ -127,5 +127,5 @@ visualIASTCycleTap = eventtap.new({
   return true
 end)
 
-visualIASTCycleTap:start()
-hs.alert.show("macOS-IAST 1.1 enabled", 1.2)
+IASTypeCycleTap:start()
+hs.alert.show("IASType 1.1 enabled", 1.2)
